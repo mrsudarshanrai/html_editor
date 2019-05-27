@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<!--
+
+****************************************
+ author:Shudarshan Rai
+  Created on :30/March 2019
+   copyright :© 2019 Shudarshan Rai
+    
+    info:
+    _____
+    Simple html editor app""
+******************************************
+
+
+
+
+-->
+  <meta charset="UTF-8">
+  <meta name="description" content="Html editor web applications">
+  <meta name="keywords" content="HTML,CSS,Jquery,JavaScript">
+  <meta name="author" content="Shudarshan Rai">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Germania+One|Raleway|Montserrat" rel="stylesheet">
+
+<!--stylesheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!--script-->
+<script src="script.js"></script>
+
+<link rel="icon" type="image/png" href="html_edit.png">
+</head>
+<body>
+
+<div class="setting">
+  
+ <!--editor output button -->
+  <button class="tablink" onclick="openPage('editor', this, '#0f97f9')" id="defaultOpen">Editor</button>
+
+<button class="tablink" onclick="openPage('output', this, '#0f97f9')" id="run">Output</button>  
+
+<span id="option">&#8942;</span>
+</div>
+
+
+<div class="main">
+
+<!--options div-->
+<div class="options">
+    <p>Font size</p>
+   
+<div class="slidecontainer">
+  <input type="range" min="1" max="30" value="5" class="slider" id="slider">
+  
+  <r></r>
+</div>
+
+<p>Themes</p>
+<br>
+<button id="t1" class="btn"></button><button id="t2" class="btn"></button><button id="t3" class="btn"></button>
+<br>
+<p>Font style</p>
+
+<br>
+<button id="fontd">default</button>
+<button id="font1">font</button>
+<button id="font2">font</button>
+
+<div class="info">
+   
+</div>
+
+</div>
+
+<!--textarea-->
+<div id="editor" class="tabcontent">
+  <textarea id="code">
+      
+<!DOCTYPE html>
+  <html>
+   <head>
+   <title></title>
+     </head>
+     <body>
+     <p>Hello world</p>
+  </body> 
+ </html> 
+      
+      
+  </textarea>
+ 
+</div>
+
+<!--output iframe-->
+<div id="output" class="tabcontent">
+<iframe id="result"></iframe>
+</div>
+
+
+</div>
+
+   <script src="script.js"></script>
+
+</body>
+
+
+</html> 
