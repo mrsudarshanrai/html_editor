@@ -9,6 +9,7 @@ This project is under development ,so output not much comfortable.
 
 ## Code Samples
 
+```javascript
 function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
    tabcontent = document.getElementsByClassName("tabcontent");
@@ -23,7 +24,7 @@ tablinks = document.getElementsByClassName("tablink");
   document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
 }
-
+```
 
 
 
