@@ -1,0 +1,23 @@
+{
+  "name": "html_editor",
+  "version": "1.0.0",
+  "description": "simple html editor",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsudarshan/html_editor.git"
+  },
+  "keywords": [
+    "html",
+    "editor"
+  ],
+  "author": "Shudarshan Rai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrsudarshan/html_editor/issues"
+  },
+  "homepage": "https://github.com/mrsudarshan/html_editor#readme"
+}
